@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.somnus.androidmaterialdialogdemo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/showMyLoadingDlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showMyLoadingDlg"/>
+
+    <Button
+        android:id="@+id/showInfoDlgTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showInfoDlg(两个按钮)"/>
+
+    <Button
+        android:id="@+id/showInfoDlgOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showInfoDlg(一个按钮)"/>
+
+    <Button
+        android:id="@+id/showInputDlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showInputDlg(一个输入框)"/>
+
+    <Button
+        android:id="@+id/showListDlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showListDlg"/>
+
+    <Button
+        android:id="@+id/showComplexInputDlg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showComplexInputDlg"/>
+
+    <Button
+        android:id="@+id/btnShowDefaultDialog"
+        android:layout_width="wrap_content"
+        android:text="点击我弹出系统默认框"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
